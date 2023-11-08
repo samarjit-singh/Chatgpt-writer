@@ -1,8 +1,7 @@
 import { useState } from "react"
 
-import Answer from "~components/Answer"
+import Body from "~components/Body"
 import Header from "~components/Header"
-import InputContainer from "~components/InputContainer"
 
 function IndexPopup() {
   return (
@@ -10,11 +9,11 @@ function IndexPopup() {
       style={{
         padding: 4,
         width: 500,
-        height: 500
+        height: 500,
+        background: "linear-gradient(to right, #A9A9A9, #A0E9FF)"
       }}>
       <Header />
-      <InputContainer />
-      <Answer />
+      <Body />
     </div>
   )
 }

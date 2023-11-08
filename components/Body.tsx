@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-const InputContainer = () => {
+const Body = () => {
   const [inputText, setInputText] = useState("")
   const [output, setOutput] = useState("")
 
@@ -50,7 +50,8 @@ const InputContainer = () => {
           width: 490,
           borderRadius: "4px",
           background: "linear-gradient(to right, #FFEED9, #E0F4FF)",
-          height: 30
+          height: 30,
+          border: "none"
         }}
         onChange={(e) => setInputText(e.target.value)}
       />
@@ -67,9 +68,19 @@ const InputContainer = () => {
         onClick={callAPI}>
         Generate
       </button>
-      <p>{output}</p>
+
+      <div
+        style={{
+          marginTop: "12px",
+          border: "2px solid",
+          height: 270,
+          borderRadius: "4px",
+          padding: "4px"
+        }}>
+        <p>{output}</p>
+      </div>
     </div>
   )
 }
 
-export default InputContainer
+export default Body
