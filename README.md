@@ -4,6 +4,10 @@
 
 AI-powered Chrome Extension written using React.js, Typescritp & Next.js
 
+
+https://github.com/samarjit-singh/Chatgpt-writer/assets/75423063/79405b6c-5460-49b6-ac06-8cb9548a9c96
+
+
 ## Installation
 
 ### 📝 Chatgpt Writer Client
@@ -22,4 +26,8 @@ $ npm run dev
     - Write a prompt in the input bar.
     - Click on the generate button.
     - The response will be generated inside the text area.
+- Serser repo link:
+  ```terminal
+  $ https://github.com/samarjit-singh/Chatgpt-server
+  ```
     
