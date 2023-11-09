@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import TypingEffect from "./TypingEffect"
+
 const Body = () => {
   const [inputText, setInputText] = useState("")
   const [output, setOutput] = useState("")
@@ -77,7 +79,7 @@ const Body = () => {
           borderRadius: "4px",
           padding: "4px"
         }}>
-        <p>{output}</p>
+        <TypingEffect text={output} />
       </div>
     </div>
   )
