@@ -18,7 +18,7 @@ const TypingEffect = ({ text }) => {
     return () => clearInterval(typingInterval)
   }, [text])
 
-  return <p>{displayedText}</p>
+  return <p style={{ fontWeight: "bold" }}>{displayedText}</p>
 }
 
 export default TypingEffect

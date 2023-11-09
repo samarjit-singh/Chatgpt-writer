@@ -27,7 +27,6 @@ const Body = () => {
       if (response.ok) {
         const data = await response.json()
         const generatedText = data[0].generated_text
-        console.log("response", generatedText)
         setOutput(generatedText)
       } else {
         console.error("API call failed")
@@ -79,7 +78,9 @@ const Body = () => {
           borderRadius: "4px",
           padding: "4px"
         }}>
-        <TypingEffect text={output} />
+        <p>
+          <TypingEffect text={output} />
+        </p>
       </div>
     </div>
   )
