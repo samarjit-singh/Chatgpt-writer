@@ -26,7 +26,7 @@ $ npm run dev
     - Write a prompt in the input bar.
     - Click on the generate button.
     - The response will be generated inside the text area.
-- Serser repo link:
+- Server repo link:
   ```terminal
   $ https://github.com/samarjit-singh/Chatgpt-server
   ```
